@@ -12,6 +12,18 @@ const menuItems = [
     id: 'lazyload',
     name: 'LazyLoad',
   },
+  {
+    id: 'state',
+    name: 'State',
+  },
+  {
+    id: 'redux',
+    name: 'Redux',
+  },
+  {
+    id: 'hooks',
+    name: 'Hooks',
+  },
 ]
 
 class Navigator extends React.Component{
