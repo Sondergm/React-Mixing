@@ -24,6 +24,10 @@ const menuItems = [
     id: 'hooks',
     name: 'Hooks',
   },
+  {
+    id: 'context',
+    name: 'Context',
+  },
 ]
 
 class Navigator extends React.Component{

@@ -5,9 +5,7 @@ import Router from './routers'
 function App() {
   return (
     <div className='app' >
-      <Layout>
-        <Router/>
-      </Layout>
+      <Layout render={data => <Router msg={data} />}/>
     </div>
   );
 }

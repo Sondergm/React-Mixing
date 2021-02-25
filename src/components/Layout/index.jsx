@@ -11,7 +11,7 @@ export default class Layout extends Component {
           <Navigator/>
         </Card>
         <Card className='main-card' >
-          {this.props.children}
+          {this.props.render('msg')}
         </Card>
       </div>
     )
